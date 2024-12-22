@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #eafbff;
+  font-family: "Mulish", sans-serif;
+  background-image:  linear-gradient(
+    to bottom right,
+    #28aecc,
+    #071c40
+  );
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+h2{
+    font-family: inherit;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 2px 4px 3px #16272b;
+}
+.container{
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 4px 5px 5px #16272b;
+    margin-top: 10px;
+}
+form {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 12px;
+    position: relative;
+}
+form input{
+    flex: 1;
+    padding: 8px 12px;
+    border: 0;
+    border-bottom: 2px solid #c85f10;
+}
+form input:focus{
+    outline: none;
+}
+form button{
+    padding: 8px 10px;
+    background-color: #c85f10;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    font-size: 16px;
+}
+#cityMessage{
+    display: none;
+    position: absolute;
+    bottom: -12px;
+    color: red;
+    font-size: 14px;
+    margin-left: 8px;
+    margin-top: 2px;
+}
+h4{
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.location{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.location span{
+    background-color: #39a70a;
+    padding: 5px 8px;
+    border-radius: 3px;
+}
+#result p{
+    padding: 10px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    background-color:  #071c40;
+  color: #fff;
+  font-size: 18px;
+}
